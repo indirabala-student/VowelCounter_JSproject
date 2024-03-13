@@ -8,7 +8,7 @@ function countVowels(){
     for(i=0; i<text.length; i++){
         var char=text.charAt(i);
         if(isVowel(char)){
-            noOfVowel ++;
+            ++noOfVowel;
         }
     }
 
